@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle at center, #1c1c1c, #121212);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.clock {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  background: linear-gradient(145deg, #2e2e2e, #1a1a1a);
+  border-radius: 50%;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.7),
+              inset 0 0 15px rgba(255,255,255,0.1);
+  border: 8px solid #444;
+}
+
+.center-point {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: #ff4c60;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px #ff4c60;
+  z-index: 10;
+}
+
+.hand {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: bottom center;
+  border-radius: 6px;
+  transition: all 0.05s cubic-bezier(0.4, 2.3, 0.3, 1);
+  box-shadow: 0 0 5px #ff4c60;
+}
+
+.hand.hour {
+  width: 10px;
+  height: 90px;
+  background: linear-gradient(135deg, #ff4c60, #b03a46);
+  z-index: 7;
+}
+
+.hand.minute {
+  width: 6px;
+  height: 130px;
+  background: linear-gradient(135deg, #f77f8e, #b03a46);
+  z-index: 8;
+}
+
+.hand.second {
+  width: 2px;
+  height: 150px;
+  background: #ff1e44;
+  box-shadow: 0 0 15px #ff1e44;
+  z-index: 9;
+}
+
+.numbers {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+
+.number {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  color: #ff4c60;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  line-height: 30px;
+  user-select: none;
+  text-shadow: 0 0 8px rgba(255, 76, 96, 0.8);
+  top: 50%;
+  left: 50%;
+}
+
+/* Correctly place each number in a perfect circle */
+.number1 { transform: translate(-50%, -50%) rotate(30deg) translateY(-140px) rotate(-30deg);}
+.number2 { transform: translate(-50%, -50%) rotate(60deg) translateY(-140px) rotate(-60deg);}
+.number3 { transform: translate(-50%, -50%) rotate(90deg) translateY(-140px) rotate(-90deg);}
+.number4 { transform: translate(-50%, -50%) rotate(120deg) translateY(-140px) rotate(-120deg);}
+.number5 { transform: translate(-50%, -50%) rotate(150deg) translateY(-140px) rotate(-150deg);}
+.number6 { transform: translate(-50%, -50%) rotate(180deg) translateY(-140px) rotate(-180deg);}
+.number7 { transform: translate(-50%, -50%) rotate(210deg) translateY(-140px) rotate(-210deg);}
+.number8 { transform: translate(-50%, -50%) rotate(240deg) translateY(-140px) rotate(-240deg);}
+.number9 { transform: translate(-50%, -50%) rotate(270deg) translateY(-140px) rotate(-270deg);}
+.number10 { transform: translate(-50%, -50%) rotate(300deg) translateY(-140px) rotate(-300deg);}
+.number11 { transform: translate(-50%, -50%) rotate(330deg) translateY(-140px) rotate(-330deg);}
+.number12 { transform: translate(-50%, -50%) rotate(0deg) translateY(-140px) rotate(0deg);}
