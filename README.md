@@ -4,13 +4,6 @@ A modern, lightweight **Live Digital Clock Web App** built using pure **HTML, CS
 
 ---
 
-## 🚀 Live Preview
-
-[🔗 Click to View Live Clock](https://your-live-demo-link.com)  
-*(Replace with your live link if hosted.)*
-
----
-
 ## 📂 Project Structure
 
 Live-Clock-by-Perplexity-AI/
