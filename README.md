@@ -1,6 +1,8 @@
 # 🕰️ Live Clock by Perplexity AI
 
-A modern, lightweight **Live Digital Clock Web App** built using pure **HTML, CSS, and JavaScript**. Simple, fast, and responsive — crafted to display real-time hours, minutes, and seconds with elegance.
+A modern, lightweight **Live Digital Clock Web App** built using pure **HTML, CSS, and JavaScript**.
+
+Simple, fast, and responsive — crafted to display real-time hours, minutes, and seconds with elegance.
 
 ---
 
