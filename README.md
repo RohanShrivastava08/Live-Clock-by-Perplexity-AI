@@ -14,15 +14,13 @@ Simple, fast, and responsive — crafted to display real-time hours, minutes, an
 
 ## 📂 Project Structure
 
+```
 Live-Clock-by-Perplexity-AI/
 │
 ├── index.html # Main HTML structure
 ├── style.css # Styling with modern, clean UI
 └── script.js # Real-time clock logic
-
-yaml
-Copy
-Edit
+```
 
 ---
 
