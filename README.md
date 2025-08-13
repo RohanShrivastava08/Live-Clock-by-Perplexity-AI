@@ -6,9 +6,9 @@
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/53632313-5e42-4159-bf35-22b23222f3e7" />
 
-A modern, lightweight **Live Digital Clock Web App** built using pure **HTML, CSS, and JavaScript**.
+- A modern, lightweight **Live Digital Clock Web App** built using pure **HTML, CSS, and JavaScript**.
 
-Simple, fast, and responsive — crafted to display real-time hours, minutes, and seconds with elegance.
+- Simple, fast, and responsive — crafted to display real-time hours, minutes, and seconds with elegance.
 
 ---
 
